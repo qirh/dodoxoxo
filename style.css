@@ -24,6 +24,7 @@ img {
 }
 @media only screen and (min-width : 420px) {
     img {
-       margin-left: 5%;
+       margin-left: 2%;
+       margin-right: auto; 
     }
 }
