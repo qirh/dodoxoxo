@@ -9,13 +9,21 @@ div {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
-
 img {
     width: auto;
     height: auto;
     max-width: 95%;
-    max-height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
+    max-height: 80%;
+    display: block;   
+}
+@media only screen and (max-width : 420px) {
+    img {
+        margin-left: auto;
+        margin-right: auto; 
+    }
+}
+@media only screen and (min-width : 420px) {
+    img {
+       margin-left: 10%; 
+    }
 }
