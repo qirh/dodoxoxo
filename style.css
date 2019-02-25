@@ -14,17 +14,14 @@ img {
     height: auto;
     max-width: 95%;
     max-height: 80%;
-    display: block;   
+    display: block;  
+    
+    margin-left: 2%;
+    margin-right: auto; 
 }
 @media only screen and (max-width : 420px) {
     img {
         margin-left: auto;
         margin-right: auto; 
-    }
-}
-@media only screen and (min-width : 420px) {
-    img {
-       margin-left: 2%;
-       margin-right: auto; 
     }
 }
